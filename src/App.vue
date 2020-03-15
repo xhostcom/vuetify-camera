@@ -1,30 +1,34 @@
 <template>
-<div>
- <v-toolbar
-      color="pink"
+<v-app>
+    <v-app-bar
+      app
+      color="dark"
       dark
-    > <v-spacer></v-spacer>
-      <v-toolbar-title>Camera</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn icon>
-        <v-icon>search</v-icon>
-      </v-btn>
-    </v-toolbar>
+    >
+    <v-icon>mdi-menu</v-icon>
+    <v-spacer></v-spacer>
+    <v-toolbar-title class="white--text">
+      <router-link class="title" to="/">Camera</router-link>
+    </v-toolbar-title>
+    <v-spacer></v-spacer>
+    <v-btn to="/">
+    <v-icon>mdi-refresh</v-icon>
+    </v-btn>
+    </v-app-bar>
     <v-content>
-      <HelloWorld />
+     <Camera />
     </v-content>
- </div>
-
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Camera from './components/Camera';
 
 export default {
   name: 'App',
 
   components: {
-  HelloWorld,
+  Camera,
   },
 
   data: () => ({
