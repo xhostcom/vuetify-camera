@@ -5,10 +5,10 @@
       color="dark"
       dark
     >
-    <v-icon>mdi-menu</v-icon>
+    <v-icon>mdi-camera</v-icon>
     <v-spacer></v-spacer>
     <v-toolbar-title class="white--text">
-      <router-link class="title" to="/">Camera</router-link>
+      <router-link class="title" to="/">Vuetify Camera</router-link>
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <v-btn to="/">
