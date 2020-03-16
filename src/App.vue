@@ -6,7 +6,7 @@
       dark
     >
      <v-btn to="/">
-    <v-icon>mdi-camera</v-icon>
+    <v-icon>mdi-menu</v-icon>
     </v-btn>
     <v-spacer></v-spacer>
     <v-toolbar-title class="white--text">

@@ -1,9 +1,9 @@
 <template>
 <section class="top" justify-center align-center>
-         <div class="mb-12 camera">
+         <div class="camera">
          <video autoplay class="feed"></video>
          <br />
-         <v-btn block dark color="info">SNAP</v-btn>
+         <v-btn block dark color="info"><v-icon>mdi-camera</v-icon></v-btn>
         </div>
 </section>
 </template>
